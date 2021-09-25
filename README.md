@@ -3,8 +3,10 @@
 ### Goal: In this project,the aim is to apply Machine Learning Classification algorithms on chimpanzee, human and dog gene sequences dataset that can predict genes function based on DNA sequence (coding sequence) alone.
 
 ### About the Data set:
+Three datasets were used for three different projects, one for human,one for dog and the other for chimpanzee. All the datasets have two features namely sequence and class. The datsets are in text format and present in this repository. 
 
 ### About the project: 
+After loading the data set the initial step was to perform K-mer counting and converting the sequences into specific length of six and converting into lower case. All the kmers were joined to form a paragraph and Bag of Words were applied to convert words into vectors. Finally, Multinomial Naive Bayes algorithm was applied on the training data and predicted on the test data. Model was evaluated using accuracy score, classification report and confusion matrix.
 
 ### Treating DNA sequence as a "language", otherwise known as k-mer counting
 A challenge that remains is that none of these above methods results in vectors of uniform length, and that is a requirement for feeding data to a classification or regression algorithm. So with the above methods you have to resort to things like truncating sequences or padding with "n" or "0" to get vectors of uniform length.
