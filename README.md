@@ -1,6 +1,6 @@
 # DNA-Sequence-Classifier-using-NLP
 
-### Goal:
+### Goal: In this project,the aim is to apply Machine Learning Classification algorithms on chimpanzee, human and dog gene sequences dataset that can predict genes function based on DNA sequence (coding sequence) alone.
 
 ### About the Data set:
 
